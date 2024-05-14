@@ -1,0 +1,218 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient( rgba(24, 24, 24, 0.863), rgba(0, 0, 0, 0.945));
+    background-attachment: fixed;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1{
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+header{
+    background: linear-gradient(to left, rgb(0, 0, 0), rgba(24, 24, 24, 0.973));
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px, 40px;
+    border-radius: 25px;
+    border: 1px solid  rgb(0, 0, 0, 0.2);   
+    transform: translate(0px, 4px);
+}
+
+.headlers-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    transform: translate(10px,0px);
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+
+nav ul li{
+    display: inline ;
+    margin: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    background-color: rgba(253, 136, 1, 0.644);
+    color: aliceblue;
+    box-shadow:  0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.active{
+    background-color: rgba(253, 136, 1, 0.644);
+    color: aliceblue;
+    box-shadow:  0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container{
+    display: flex;
+    transform: translate(-15px,300px);
+    gap: 260px;
+    justify-content: center;
+}
+
+.my_channels{
+    transform: scale(1.5);
+    width: 15%;
+    height: 210px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 10px; 
+}
+
+.social_icon-channels{
+    display: flex;
+    gap: 6vw;
+    transform: translate(0px, 1vw);
+    justify-content: center;
+    font-size: 2.5vw;
+}
+
+.icons-telegram{
+    transform: translate(10px, 0px);
+    color: rgb(0, 255, 242);
+}
+
+.icons-Yt{
+    color: rgba(255, 0, 0, 0.932);
+}
+
+.icons{
+    filter:drop-shadow(0 3px 3px rgba(0, 0, 0, 0.2)) ;
+}
+
+.button-channels{
+    display: flex;
+    justify-content: center;
+    gap: 4.6vw;
+    font-size: 0.8vw;
+    transform: translate(0px, 3vw);
+}
+
+
+.btn-YT{
+    transform: translate(-0.5vw, 0px);
+}
+
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #333;
+    transition: .3s;
+    padding: 10px;
+    border-radius: 12px;
+    
+}
+
+li a:hover{
+    background-color: rgba(0, 0, 0, 0.644);
+    color: rgb(255, 255, 255);
+    box-shadow:  0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.x-twitter_и_furrafinity{
+    transform: scale(1.5);
+    width: 20%;
+    height: 210px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.social_icon_x-twitter_и_furrafinity{
+    display: flex;
+    gap: 8vw;
+    transform: translate(0px, 1vw);
+    justify-content: center;
+    font-size: 2.5vw;
+}
+
+
+.button-x-twitter-и-furrafinity{
+    display: flex;
+    justify-content: center;
+    gap: 4.6vw;
+    font-size: 0.8vw;
+    transform: translate(0px, 3vw);
+}
+
+.btn_twit{
+    transform: translate(-0.6vw, 0px);
+}
+
+
+.my_main_accounts{
+    transform: scale(1.5);
+    
+    width: 22%;
+    height: 210px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 10px; 
+}
+
+.social_icon_my_main_accounts{
+    display: flex;
+    gap: 5vw;
+    transform: translate(0px, 1vw);
+    justify-content: center;
+    font-size: 2.5vw;
+}
+
+.icons_tg{
+    color: aqua;
+}
+
+.icons_vk{
+    color: rgb(0, 81, 255);
+}
+
+.button_my_main_accounts{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    font-size: 0.6vw;
+    transform: translate(0.2vw, 3vw);
+}
+
+.btn_tg{
+    transform: translate( -5px, 0px);
+}
+
+.btn_vk{
+    transform: translate(5px, 0px);
+}

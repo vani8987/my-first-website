@@ -1,0 +1,253 @@
+@media screen and (max-width: 1200px) {
+    header{
+        Margin: auto;
+        width: 99%;
+    }
+
+    body{
+        overflow-x: hidden
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 998px) {
+    header{
+        Margin: auto;
+        width: 99%;
+    }
+
+    body{
+        overflow-x: hidden
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column; 
+        gap: 40vw;
+    }
+   
+    h1{
+        font-size: 5vw;
+    }
+
+    .my_channels{
+        transform: translate(18vw, -150px);
+        height: 30vw; 
+        width: 70%;
+    }
+
+    .social_icon-channels{
+        font-size: 9vw;
+        gap: 35vw;
+    }
+    
+    .button-channels{
+        transform: translate(0px, 5.5vw);
+        font-size: 3vw;
+        gap: 27vw;
+    }
+
+    .x-twitter_и_furrafinity{
+        transform: translate(18vw, -200px);
+        height: 30vw; 
+        width: 70%;
+    }
+
+    .social_icon_x-twitter_и_furrafinity{
+        transform: translate(1vw, 14px);
+        font-size: 9vw;
+        gap: 36vw;
+    }
+    
+    .button-x-twitter-и-furrafinity{
+        transform: translate(0px, 5.5vw);
+        font-size: 3vw;
+        gap: 24vw;
+    }
+
+    .my_main_accounts{
+        transform: translate(13vw, -250px);
+        height: 30vw; 
+        width: 80%;
+    }
+
+    .social_icon_my_main_accounts{
+        transform: translate(1vw, 3vw);
+        font-size: 8vw;
+        gap: 17vw;
+    }
+
+    .button_my_main_accounts{
+        transform: translate(2vw, 8.5vw);
+        font-size: 2.5vw;
+        gap: 16vw;
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    header{
+        Margin: auto;
+        width: 99.4%;
+    }
+    
+    body{
+        overflow-x: hidden
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column; 
+        gap: 40vw;
+    }
+   
+    h1{
+        font-size: 5vw;
+    }
+
+    .my_channels{
+        transform: translate(18vw, -150px);
+        height: 30vw; 
+        width: 70%;
+    }
+
+    .social_icon-channels{
+        font-size: 9vw;
+        gap: 35vw;
+    }
+    
+    .button-channels{
+        transform: translate(0px, 5.5vw);
+        font-size: 3vw;
+        gap: 27vw;
+    }
+
+    .x-twitter_и_furrafinity{
+        transform: translate(18vw, -200px);
+        height: 30vw; 
+        width: 70%;
+    }
+
+    .social_icon_x-twitter_и_furrafinity{
+        transform: translate(1vw, 14px);
+        font-size: 9vw;
+        gap: 36vw;
+    }
+    
+    .button-x-twitter-и-furrafinity{
+        transform: translate(0px, 5.5vw);
+        font-size: 3vw;
+        gap: 24vw;
+    }
+
+    .my_main_accounts{
+        transform: translate(13vw, -250px);
+        height: 30vw; 
+        width: 80%;
+    }
+
+    .social_icon_my_main_accounts{
+        transform: translate(1vw, 3vw);
+        font-size: 8vw;
+        gap: 17vw;
+    }
+
+    .button_my_main_accounts{
+        transform: translate(2vw, 8.5vw);
+        font-size: 2.5vw;
+        gap: 16vw;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    header{
+        Margin: auto;
+        width: 99%;
+    }
+
+    header{
+        Margin: auto;
+        width: 99.4%;
+    }
+    
+    body{
+        overflow-x: hidden
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column; 
+        gap: 40vw;
+    }
+   
+    h1{
+        font-size: 5vw;
+    }
+
+    .my_channels{
+        transform: translate(18vw, -150px);
+        height: 30vw; 
+        width: 70%;
+    }
+
+    .social_icon-channels{
+        font-size: 9vw;
+        gap: 35vw;
+    }
+    
+    .button-channels{
+        transform: translate(0px, 5.5vw);
+        font-size: 3vw;
+        gap: 27vw;
+    }
+
+    .x-twitter_и_furrafinity{
+        transform: translate(18vw, -200px);
+        height: 30vw; 
+        width: 70%;
+    }
+
+    .social_icon_x-twitter_и_furrafinity{
+        transform: translate(1vw, 14px);
+        font-size: 9vw;
+        gap: 36vw;
+    }
+    
+    .button-x-twitter-и-furrafinity{
+        transform: translate(0px, 5.5vw);
+        font-size: 3vw;
+        gap: 24vw;
+    }
+
+    .my_main_accounts{
+        transform: translate(13vw, -250px);
+        height: 30vw; 
+        width: 80%;
+    }
+
+    .social_icon_my_main_accounts{
+        transform: translate(1vw, 3vw);
+        font-size: 8vw;
+        gap: 17vw;
+    }
+
+    .button_my_main_accounts{
+        transform: translate(2vw, 8.5vw);
+        font-size: 2.5vw;
+        gap: 16vw;
+    }
+}
